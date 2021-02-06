@@ -1,0 +1,10 @@
+body {
+    background:turquoise;
+    font-family: sans-serif, Arial, Helvetica;
+    font-weight: bold;
+}
+
+h1 {
+    color:green;
+    text-align: center;
+}
