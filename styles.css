@@ -4,7 +4,23 @@ body {
     font-weight: bold;
 }
 
+.assignment{
+    display:flex;
+    padding:10px;
+    margin:10px;
+    background-color:royalblue;
+}
+
+.assignment img{
+    width:200px;
+    height:200px;
+    border-radius:20px;
+    padding:10px;
+}
+
 h1 {
-    color:green;
+    color:gold;
     text-align: center;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1.5px;
 }
