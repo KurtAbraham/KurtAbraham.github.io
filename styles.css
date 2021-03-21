@@ -1,5 +1,5 @@
 body {
-    background:turquoise;
+    background:rgb(64, 165, 224);
     font-family: sans-serif, Arial, Helvetica;
     font-weight: bold;
 }
@@ -9,13 +9,19 @@ body {
     padding:10px;
     margin:10px;
     background-color:royalblue;
+    border-radius:10px;
 }
 
 .assignment img{
     width:200px;
     height:200px;
-    border-radius:20px;
-    padding:10px;
+    border-radius:15px;
+    margin:10px;
+    border:3px solid royalblue;
+}
+
+.assignment img:hover {
+    border:3px solid hsl(276, 100%, 50%);
 }
 
 h1 {
@@ -23,4 +29,13 @@ h1 {
     text-align: center;
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 1.5px;
+}
+
+a {
+    text-decoration:none;
+    color:indigo;
+}
+
+a:hover {
+    color:hsl(276, 100%, 50%);
 }
