@@ -15,7 +15,8 @@ body {
     padding:20px 10px;
     margin:10px;
     background-color:royalblue;
-    border-radius:10px;
+    box-shadow: 5px 5px rgb(25, 50, 124);
+    border-radius:5px;
 }
 
 .assignment img{
